@@ -1,0 +1,20 @@
+
+
+* Bootstrap project
+  #+begin_src shell
+cp -r boostrap my-new-kata
+cd my-new-kata
+  #+end_src
+- name your kata in package json
+- install dependencies
+#+begin_src shell
+npm install
+#+end_src
+- run tests
+#+begin_src shell
+jest
+#+end_src
+- run tests in watch mode
+#+begin_src shell
+jest --watchAll
+#+end_src
